@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/cbe52a618a.js" crossorigin="anonymous"></script>
+    <title> Busca de Planta </title>
+</head>
+<body>
+
+    <header>
+        <h1> Aprendendo sobre plantas! </h1>
+        <i class="fa-solid fa-tree fa-2x"></i>   
+    </header>
+
+    <main>
+        <section id="encontraPlanta">
+            <div id="inputPlanta">
+            
+                <select name="plantas" id="plantaSelect">
+
+                    <option value=""> Tipo de planta: </option>
+                    <option value="Briófita"> Briófita </option>
+                    <optgroup label="Pteridófita"> Pteridófita </option>
+                        <option value="Monilófita"> Monilófita </option>
+                        <option value="Licófita"> Licófita </option>
+                    </optgroup>
+                    <option value="Gimnosperma"> Gimnosperma </option>
+                    <option value="Angiosperma"> Angiosperma </option>
+
+                </select>
+               
+                <button type="submit" id="submissionBtn"> Verificar </button>
+            </div>
+            <div id="outputPlanta">
+                <div id="resultado"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p> Fontes: </p>
+        <ul>
+            <li> <a href="https://www.wikipedia.org"> wikipedia.org </a></li>
+            <li> <a href="https://www.todamateria.com.br/"> todamateria.com.br </a></li>
+            <li> <a href="https://pexels.com"> pexels.com</a></li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
